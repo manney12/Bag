@@ -1,0 +1,50 @@
+*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author O.Emmanuel.OGAH
+ */
+public interface BagInterface <T> {
+    
+
+// add an item to the bag  a boolean to find out 
+    public boolean addItem(T item);
+    
+    //return an array containing all items in bag
+    public T [] toArray();
+    
+    //removes item from bag is not empty return null if bag is empty, otherwise  referenve  to item removed
+//reduce size by 1 if item to removed
+    public T remove();
+
+    // returns true is item is removed, size is reduced by 1 
+    // returns by 1 false if item not in bag item is no bigger bag
+     public boolean remove (T item);
+
+    //methods that verifies on what the bag contains 
+    public boolean contains(T item);
+    
+    //methods that removes a specific item  from the bag 
+    public int removespecs(T item );
+    
+    // method that  counts the amount as one is added 
+    public int getItem(T item);
+    
+    //void method to makes the bag  empty 
+     public void clearTotal();
+    //method that  counts the item in the bag one by one as they are added,returns 
+    // an int variable
+     
+     
+    //Boolean method to check to  if it is empty or not and then returns a booelan method 
+     public boolean isEmpty ();
+     
+    //Boolean method to check to  if it is full or not and then returns a booelan method 
+     public boolean isFull();
+     
+     
+} 
+
