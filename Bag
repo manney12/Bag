@@ -1,0 +1,19 @@
+
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+/**
+ *
+ * @author O.Emmanuel.OGAH
+ */
+public abstract class Bag <T> implements BagInterface{
+    // the classes will be implemented from the interface but this will have their 
+     private double N= 0;
+     
+     // add item to the bag 
+     public boolean addItem(){
+      
+     };
+     
+     
+}
